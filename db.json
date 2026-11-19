@@ -1,0 +1,146 @@
+{
+  "restaurantes": [
+    {
+      "id": 1,
+      "nome": "Cantina Bella Massa",
+      "descricao": "Massas artesanais e pizzas de forno a lenha.",
+      "categoria": "Italiana",
+      "imagem": "https://placehold.co/600x400/png?text=Bella+Massa",
+      "avaliacao": 4.7,
+      "tempo_entrega_min": 35,
+      "tempo_entrega_max": 50,
+      "taxa_entrega": 6.9
+    },
+    {
+      "id": 2,
+      "nome": "Sabor da Vó Ada",
+      "descricao": "Comida caseira brasileira, marmitas e feijoada.",
+      "categoria": "Brasileira",
+      "imagem": "https://placehold.co/600x400/png?text=Vo+Ada",
+      "avaliacao": 4.5,
+      "tempo_entrega_min": 45,
+      "tempo_entrega_max": 60,
+      "taxa_entrega": 0
+    },
+    {
+      "id": 3,
+      "nome": "Sushi Kenzo",
+      "descricao": "Combinados, temakis e pratos quentes japoneses.",
+      "categoria": "Japonesa",
+      "imagem": "https://placehold.co/600x400/png?text=Sushi+Kenzo",
+      "avaliacao": 4.3,
+      "tempo_entrega_min": 50,
+      "tempo_entrega_max": 70,
+      "taxa_entrega": 8.5
+    },
+    {
+      "id": 4,
+      "nome": "Burger Station",
+      "descricao": "Hambúrgueres artesanais, batatas e milk-shakes.",
+      "categoria": "Lanches",
+      "imagem": "https://placehold.co/600x400/png?text=Burger+Station",
+      "avaliacao": 3.9,
+      "tempo_entrega_min": 25,
+      "tempo_entrega_max": 40,
+      "taxa_entrega": 4.0
+    }
+  ],
+  "pratos": [
+    {
+      "id": 1,
+      "restaurante_id": 1,
+      "nome": "Spaghetti à Carbonara",
+      "descricao": "Spaghetti, ovos, queijo pecorino, bacon crocante e pimenta-do-reino.",
+      "imagem": "https://placehold.co/400x400/png?text=Carbonara",
+      "preco": 48.9
+    },
+    {
+      "id": 2,
+      "restaurante_id": 1,
+      "nome": "Pizza Margherita",
+      "descricao": "Molho de tomate, muçarela de búfala, manjericão fresco e azeite.",
+      "imagem": "https://placehold.co/400x400/png?text=Margherita",
+      "preco": 54.0
+    },
+    {
+      "id": 3,
+      "restaurante_id": 1,
+      "nome": "Lasanha à Bolonhesa",
+      "descricao": "Camadas de massa fresca, molho bolonhesa, presunto e queijo gratinado.",
+      "imagem": "https://placehold.co/400x400/png?text=Lasanha",
+      "preco": 44.5
+    },
+    {
+      "id": 4,
+      "restaurante_id": 2,
+      "nome": "Feijoada Completa",
+      "descricao": "Feijão preto com carnes selecionadas, arroz, couve, farofa e laranja.",
+      "imagem": "https://placehold.co/400x400/png?text=Feijoada",
+      "preco": 39.9
+    },
+    {
+      "id": 5,
+      "restaurante_id": 2,
+      "nome": "Marmita de Frango Grelhado",
+      "descricao": "Filé de frango grelhado, arroz, feijão, purê de batata e salada.",
+      "imagem": "https://placehold.co/400x400/png?text=Marmita",
+      "preco": 27.9
+    },
+    {
+      "id": 6,
+      "restaurante_id": 2,
+      "nome": "Strogonoff de Carne",
+      "descricao": "Strogonoff cremoso de filé, arroz branco e batata palha.",
+      "imagem": "https://placehold.co/400x400/png?text=Strogonoff",
+      "preco": 32.0
+    },
+    {
+      "id": 7,
+      "restaurante_id": 3,
+      "nome": "Combinado 20 peças",
+      "descricao": "Sushis e sashimis variados de salmão, atum e peixe branco.",
+      "imagem": "https://placehold.co/400x400/png?text=Combinado",
+      "preco": 79.9
+    },
+    {
+      "id": 8,
+      "restaurante_id": 3,
+      "nome": "Temaki de Salmão",
+      "descricao": "Cone de alga com arroz, salmão fresco e cream cheese.",
+      "imagem": "https://placehold.co/400x400/png?text=Temaki",
+      "preco": 29.9
+    },
+    {
+      "id": 9,
+      "restaurante_id": 3,
+      "nome": "Yakisoba de Frango",
+      "descricao": "Macarrão oriental salteado com frango e legumes frescos.",
+      "imagem": "https://placehold.co/400x400/png?text=Yakisoba",
+      "preco": 36.0
+    },
+    {
+      "id": 10,
+      "restaurante_id": 4,
+      "nome": "Cheeseburger Duplo",
+      "descricao": "Dois hambúrgueres de 120g, queijo cheddar, picles e molho da casa.",
+      "imagem": "https://placehold.co/400x400/png?text=Cheeseburger",
+      "preco": 34.9
+    },
+    {
+      "id": 11,
+      "restaurante_id": 4,
+      "nome": "Batata Frita Grande",
+      "descricao": "Porção de batatas crocantes com maionese temperada.",
+      "imagem": "https://placehold.co/400x400/png?text=Batata",
+      "preco": 18.9
+    },
+    {
+      "id": 12,
+      "restaurante_id": 4,
+      "nome": "Milk-shake de Chocolate",
+      "descricao": "Sorvete de baunilha batido com calda de chocolate, 400 ml.",
+      "imagem": "https://placehold.co/400x400/png?text=Milkshake",
+      "preco": 19.9
+    }
+  ]
+}
